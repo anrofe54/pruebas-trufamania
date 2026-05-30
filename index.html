@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Trufamania - divulgación sobre trufas y hongos hipogeos</title>
+<meta name="description" content="Web divulgativa sobre trufas, gastronomía, especies comestibles, falsas trufas, trufas del desierto y fichas descriptivas de hongos hipogeos como Tuber y Terfezia.">
+
+  <link rel="stylesheet" href="estilos-generales.css" type="text/css" media="all">
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      background: #111111 url("images/fondo3.jpg") center center fixed;
+      background-size: cover;
+      color: #660000;
+    }
+
+    .portada {
+      width: min(100%, 1050px);
+      margin: 0 auto;
+      padding: 22px 14px;
+    }
+
+    .tarjeta-portada {
+      background: url("images/fondo.jpg") white;
+      border: 1px solid #660000;
+      box-shadow: 0 0 24px rgba(0, 0, 0, 0.55);
+    }
+
+    #cabecera {
+      background: #660000;
+      color: #ffffff;
+      text-align: center;
+      padding: 22px 12px 18px 12px;
+    }
+
+    .cabecera-portada h1 {
+      margin: 0;
+      font-size: 2.1em;
+      letter-spacing: 4px;
+      font-weight: bold;
+    }
+
+    .cabecera-portada p {
+      margin: 7px 0 0 0;
+      color: #ffcccc;
+      letter-spacing: 3px;
+      font-size: 0.85em;
+      text-transform: uppercase;
+    }
+
+    
+
+    .nav-toggle,
+    .nav-toggle-label {
+      display: none;
+    }
+
+    .menu-portada {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;
+      background: #660000;
+      border-top: 1px solid rgba(255,255,255,0.25);
+      border-bottom: 1px solid #660000;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .menu-portada a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 16px;
+      font-size: 0.98em;
+    }
+
+    .menu-portada a:hover {
+      color: yellow;
+      text-decoration: underline;
+    }
+
+    .imagen-portada {
+      position: relative;
+      padding: 18px 18px 4px 18px;
+      text-align: center;
+      max-width: 940px;
+      margin: 0 auto;
+    }
+
+    .imagen-portada img {
+      display: block;
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid #660000;
+    }
+
+    
+
+    .contenido-portada {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 20px 28px 28px 28px;
+      text-align: center;
+    }
+
+    .etiqueta {
+      display: inline-block;
+      background: #660000;
+      color: #ffffff;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9em;
+      font-weight: bold;
+      margin-bottom: 14px;
+    }
+
+    .contenido-portada h2 {
+      margin: 0 0 14px 0;
+      color: red;
+      font-size: 1.55em;
+      text-decoration: underline;
+    }
+
+    .entradilla {
+      font-family: Helvetica, Arial, Verdana, sans-serif;
+      font-size: 1.12em;
+      line-height: 1.55;
+      text-align: justify;
+      margin: 0 0 16px 0;
+      color: #660000;
+    }
+
+    .aviso {
+      background: #FFE7BA;
+      border-top: 3px solid #660000;
+      border-bottom: 3px solid #660000;
+      padding: 15px 20px;
+      margin: 22px 0;
+      font-family: Helvetica, Arial, Verdana, sans-serif;
+      line-height: 1.5;
+      text-align: justify;
+      color: #660000;
+    }
+
+    .aviso strong {
+      color: red;
+    }
+
+    .botones {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin: 24px 0 18px 0;
+    }
+
+    .botones a {
+      display: inline-block;
+      background: #660000;
+      color: #ffffff;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      padding: 11px 18px;
+      border-radius: 7px;
+      border: 1px solid #660000;
+    }
+
+    .botones a:hover {
+      color: yellow;
+      text-decoration: underline;
+    }
+
+    .botones a.secundario {
+      background: #FFE7BA;
+      color: #660000;
+    }
+
+    .botones a.secundario:hover {
+      color: red;
+    }
+
+    .bloques {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+      margin-top: 26px;
+      font-family: Helvetica, Arial, Verdana, sans-serif;
+    }
+
+    .bloque {
+      border: 1px solid #660000;
+      background: #fff4dc;
+      padding: 14px;
+      text-align: left;
+    }
+
+    .bloque h3 {
+      margin: 0 0 8px 0;
+      color: red;
+      text-align: center;
+      font-size: 1.05em;
+    }
+
+    .bloque p {
+      margin: 0;
+      line-height: 1.45;
+      text-align: justify;
+      font-size: 0.96em;
+      color: #660000;
+    }
+
+    .pie-portada {
+      background: #660000;
+      color: #ffffff;
+      text-align: center;
+      padding: 8px 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.82em;
+    }
+
+    .pie-portada a {
+      color: #ffffff;
+    }
+
+    .pie-portada a:hover {
+      color: yellow;
+    }
+
+    @media (max-width: 768px) {
+      .portada {
+        padding: 0;
+      }
+
+      .tarjeta-portada {
+        min-height: 100vh;
+        border-left: none;
+        border-right: none;
+      }
+
+      #cabecera {
+        padding: 18px 10px 14px 10px;
+      }
+
+      .cabecera-portada h1 {
+        font-size: 1.55em;
+        letter-spacing: 2px;
+      }
+
+      .cabecera-portada p {
+        font-size: 0.72em;
+        letter-spacing: 2px;
+      }
+
+      .imagen-portada {
+        padding: 12px 10px 0 10px;
+      }
+
+      .link-imagen-en {
+        top: 4%;
+        right: 12%;
+        width: 20%;
+        height: 22%;
+      }
+
+      .contenido-portada {
+        padding: 18px 16px 24px 16px;
+      }
+
+      .contenido-portada h2 {
+        font-size: 1.28em;
+      }
+
+      .entradilla,
+      .aviso {
+        font-size: 1.02em;
+        text-align: justify;
+        text-align-last: left;
+        hyphens: auto;
+      }
+
+      .botones {
+        flex-direction: column;
+        gap: 9px;
+        margin: 22px 0;
+      }
+
+      .botones a {
+        width: 100%;
+        text-align: center;
+      }
+
+      .bloques {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+    }
+  
+    /* Menu hamburguesa portada movil */
+    @media screen and (max-width: 768px) {
+      #cabecera {
+        position: relative;
+        padding-right: 58px;
+      }
+
+      .nav-toggle {
+        display: block;
+        position: absolute;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        opacity: 0;
+      }
+
+      .nav-toggle-label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        position: absolute;
+        top: 50%;
+        right: 14px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        padding: 6px;
+        z-index: 100;
+      }
+
+      .nav-toggle-label span {
+        display: block;
+        width: 26px;
+        height: 2px;
+        background-color: #ffffff;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+        transform-origin: center;
+      }
+
+      .nav-toggle:checked ~ #cabecera .nav-toggle-label span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+      }
+
+      .nav-toggle:checked ~ #cabecera .nav-toggle-label span:nth-child(2) {
+        opacity: 0;
+        transform: scaleX(0);
+      }
+
+      .nav-toggle:checked ~ #cabecera .nav-toggle-label span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+
+      .menu-portada {
+        display: none !important;
+      }
+
+      .nav-toggle:checked ~ .menu-portada {
+        display: flex !important;
+        flex-direction: column;
+      }
+
+      .menu-portada a {
+        text-align: center;
+        padding: 11px 8px;
+        border-bottom: 1px solid rgba(255,255,255,0.15);
+      }
+
+      .menu-portada a:last-child {
+        border-bottom: none;
+      }
+    }
+    /* Fin menu hamburguesa portada movil */
+
+  </style>
+</head>
+
+<body class="pagina-portada">
+
+  <main class="portada">
+    <div class="tarjeta-portada">
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+      <div id="cabecera">
+        <div id="cabecera-titulo">TRUFAMANIA</div>
+        <div id="cabecera-subtitulo">Pasi&oacute;n por la trufa</div>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span><span></span><span></span>
+        </label>
+      </div>
+      <nav class="menu-portada">
+        <a href="inicio-trufas.htm">Inicio</a>
+        <a href="las-trufas.htm">Las trufas</a>
+        <a href="gastronomia-trufas.htm">Gastronom&iacute;a</a>
+        <a href="terfezias.htm">Trufas del desierto</a>
+        <a href="truffles-home.htm">English</a>
+      </nav>
+
+
+      <div class="imagen-portada">
+        <img src="images/trufamania.jpg" alt="Trufamania, pasión por la trufa">
+      </div>
+
+      <section class="contenido-portada">
+
+        <span class="etiqueta">Web divulgativa sobre trufas</span>
+
+        <h2>Una nueva etapa</h2>
+
+        <p class="entradilla">
+          Trufamania nació de la pasión por buscar y conocer las trufas.
+          Durante años fue también una forma de acercar nuestras mejores trufas
+          a quienes apreciaban su aroma y su gastronomía.
+        </p>
+
+        <div class="aviso">
+          <strong>Tras dos décadas compartiendo nuestras mejores trufas, nos hemos jubilado.</strong>
+          Ya no vendemos trufas, pero mantenemos esta web como espacio divulgativo,
+          memoria de nuestra experiencia y punto de encuentro para quienes desean aprender
+          sobre este fascinante mundo.
+        </div>
+
+        <p class="entradilla">
+          Aquí encontrarás información sobre las principales especies comestibles,
+          consejos gastronómicos, fotografías, falsas trufas, trufas del desierto
+          y relatos relacionados con la búsqueda y la cultura de la trufa.
+        </p>
+
+        <div class="botones">
+          <a href="inicio-trufas.htm">Entrar en Trufamania</a>
+        </div>
+
+        <div class="bloques">
+
+          <div class="bloque">
+            <h3>Divulgación</h3>
+            <p>
+              Qué son las trufas, cómo viven, por qué son tan apreciadas y cuáles son
+              las especies con mayor interés culinario.
+            </p>
+          </div>
+
+          <div class="bloque">
+            <h3>Gastronomía</h3>
+            <p>
+              Conservación, limpieza, recetas y formas sencillas de aprovechar el aroma
+              de la trufa en la cocina.
+            </p>
+          </div>
+
+          <div class="bloque">
+            <h3>Archivo trufero</h3>
+            <p>
+              Fotografías, vídeos, falsas trufas, trufas del desierto y recuerdos de una
+              larga etapa dedicada a este mundo.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <footer class="pie-portada">
+        &copy; 2008-2026 Trufamania &middot; <a href="mailto:trufamania@gmail.com">trufamania@gmail.com</a> &middot; Todos los derechos reservados.
+      </footer>
+
+    </div>
+  </main>
+
+</body>
+</html>
