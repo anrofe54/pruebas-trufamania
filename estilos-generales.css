@@ -254,6 +254,322 @@ td {
 }
 
 /* ================================================
+   UTILIDADES Y LEGADO UNIFICADO
+   ================================================ */
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.tabla-centrada {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagen-flotante {
+  margin: 3px 10px;
+}
+
+.autor-foto-offset {
+  padding: 0 0 0 92px;
+}
+
+.autor-datos,
+.autor-datos-amplio {
+  border-width: 0;
+  border-style: solid;
+  border-color: #666666;
+  text-align: left;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.autor-datos {
+  padding: 0 0 0 10px;
+}
+
+.autor-datos-amplio {
+  padding: 0 10px;
+}
+
+.Estilo1 {
+  color: #ff0000;
+}
+
+.pagina-divulgativa .Estilo1 {
+  font-weight: bold;
+}
+
+.Estilo4 {
+  font-size: medium;
+}
+
+
+
+
+.pagina-disclaimer {
+  margin: 0;
+  padding: 32px 16px;
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.pagina-disclaimer #contenedor {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.pagina-disclaimer #marca {
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.pagina-disclaimer #marca h1 {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-size: 22pt;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.pagina-disclaimer #marca p {
+  margin: 4px 0 0 0;
+  padding: 0;
+  color: #666666;
+  font-size: 8pt;
+  letter-spacing: 5px;
+  text-align: center;
+  text-indent: 0;
+  text-transform: uppercase;
+}
+
+.pagina-disclaimer h2 {
+  margin: 0 0 14px 0;
+  padding: 0;
+  color: #000000;
+  font-size: 11pt;
+}
+
+.pagina-disclaimer .bloque {
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.pagina-disclaimer .idioma {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.pagina-disclaimer #pie {
+  margin-top: 28px;
+  padding-top: 12px;
+  border-top: 1px solid #cccccc;
+  background: transparent;
+  color: #666666;
+  font-size: 8pt;
+  text-align: center;
+}
+
+/* ================================================
+   SHADOWBOX INTEGRADO
+   ================================================ */
+
+#sb-container,
+#sb-wrapper {
+  text-align: left;
+}
+
+#sb-container,
+#sb-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#sb-container {
+  height: 100%;
+  display: none;
+  visibility: hidden;
+  z-index: 999;
+}
+
+body > #sb-container {
+  position: fixed;
+}
+
+#sb-container > #sb-overlay {
+  height: 100%;
+}
+
+#sb-wrapper {
+  position: relative;
+}
+
+#sb-wrapper img {
+  border: none;
+}
+
+#sb-body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#sb-body-inner {
+  position: relative;
+  height: 100%;
+}
+
+#sb-content.html {
+  height: 100%;
+  overflow: auto;
+}
+
+#sb-loading {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#sb-body,
+#sb-loading {
+  background-color: #060606;
+  background-image: url("Shadowbox3/resources/loading.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sb-title,
+#sb-info {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#sb-title-inner,
+#sb-info-inner {
+  position: relative;
+  font-family: Arial, "Comic Sans MS", "Courier New", sans-serif;
+  line-height: 16px;
+}
+
+#sb-title,
+#sb-title-inner {
+  height: 26px;
+}
+
+#sb-title-inner {
+  font-size: 16px;
+  padding: 5px 0;
+  color: #ff9900;
+}
+
+#sb-info,
+#sb-info-inner {
+  height: 20px;
+}
+
+#sb-info-inner {
+  font-size: 13px;
+  color: #ff9900;
+}
+
+#sb-nav {
+  float: right;
+  height: 16px;
+  padding: 2px 0;
+  width: 45%;
+}
+
+#sb-nav a {
+  display: block;
+  float: right;
+  height: 16px;
+  width: 16px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+#sb-nav-close {
+  background-image: url("Shadowbox3/resources/close.png");
+  background-repeat: no-repeat;
+}
+
+#sb-nav-next {
+  background-image: url("Shadowbox3/resources/next.png");
+  background-repeat: no-repeat;
+}
+
+#sb-nav-previous {
+  background-image: url("Shadowbox3/resources/previous.png");
+  background-repeat: no-repeat;
+}
+
+#sb-nav-play {
+  background-image: url("Shadowbox3/resources/play.png");
+  background-repeat: no-repeat;
+}
+
+#sb-nav-pause {
+  background-image: url("Shadowbox3/resources/pause.png");
+  background-repeat: no-repeat;
+}
+
+#sb-counter {
+  float: left;
+  padding: 2px 0;
+  width: 45%;
+}
+
+#sb-counter a {
+  padding: 0 4px 0 0;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+#sb-counter a.sb-counter-current {
+  text-decoration: underline;
+}
+
+div.sb-message {
+  font-family: "Lucida Grande", Tahoma, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+div.sb-message a:link,
+div.sb-message a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ================================================
    BLOQUES LATERALES
    ================================================ */
 
@@ -663,7 +979,7 @@ img {
    ================================================ */
 
 .inicio-divulgativo {
-  padding: 10px 20px 28px 20px;
+  padding: 10px 20px 14px 20px;
 }
 
 .inicio-divulgativo h1 {
@@ -778,9 +1094,6 @@ img {
   color: #660000;
 }
 
-.tabla-autores {
-  margin-top: 10px;
-}
 .pie-foto-inicio {
   text-align: center !important;
   text-indent: 0 !important;
@@ -844,9 +1157,6 @@ img {
     text-align: center;
   }
 
-  .tabla-autores {
-    width: 100%;
-  }
 }
 
 /* Menu lateral plegable en movil */
@@ -1079,6 +1389,7 @@ img {
 
 /* Tabla de composicion nutricional de terfezias */
 .tabla-composicion {
+  width: 100%;
   max-width: 620px;
   margin: 24px auto;
   padding: 18px;
@@ -1140,181 +1451,80 @@ img {
   }
 }
 
-/* Modernizacion visual acotada a las paginas de terfezias */
-.pagina-terfezias-desert {
-  background-color: #201916;
-  color: #4f2114;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-}
-
-.pagina-terfezias-desert #global {
-  max-width: 1180px;
-  background: #fffaf1;
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.38);
-}
-
-.pagina-terfezias-desert #cabecera {
-  background: #5d170e;
-  border-bottom: 4px solid #b88a3d;
-  padding: 24px 20px 20px 20px;
-}
-
-.pagina-terfezias-desert #cabecera-titulo {
-  font-size: clamp(1.7em, 4vw, 2.45em);
-  letter-spacing: 0;
-}
-
-.pagina-terfezias-desert #cabecera-subtitulo {
-  color: #f4d6ad;
-  letter-spacing: 0;
-  font-size: 0.95em;
-}
-
-.pagina-terfezias-desert #navegacion {
-  max-width: none;
-  min-height: 0;
-  background: #5d170e;
-  font-size: 1em;
-  border-bottom: 1px solid rgba(184, 138, 61, 0.5);
-}
-
-.pagina-terfezias-desert #navegacion ul {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  margin: 0;
-  padding: 10px 12px;
-}
-
-.pagina-terfezias-desert #navegacion li {
-  float: none;
-  margin: 0;
-}
-
-.pagina-terfezias-desert #navegacion a {
-  border-radius: 6px;
-  padding: 9px 13px;
-  color: #fffaf1;
-}
-
-.pagina-terfezias-desert #navegacion a:hover,
-.pagina-terfezias-desert #navegacion a:focus {
-  background: rgba(255, 250, 241, 0.14);
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.pagina-terfezias-desert #contenido {
-  display: flex;
-  align-items: flex-start;
-  gap: 22px;
-  max-width: none;
-  float: none;
-  background: #fffaf1;
-  border-top: 0;
-  padding: 22px;
-}
-
-.pagina-terfezias-desert #columnaI {
-  float: none;
-  flex: 0 0 230px;
-  width: 230px;
-  position: sticky;
-  top: 12px;
-}
-
-.pagina-terfezias-desert #central {
-  float: none;
-  flex: 1 1 auto;
-  width: auto;
-  max-width: none;
-  margin: 0;
-  padding: 10px 0 34px 0;
-  color: #4f2114;
-  font-size: 1.04em;
-  line-height: 1.65;
-}
-
-.pagina-terfezias-desert #central p {
-  max-width: 820px;
-  margin: 0 auto 16px auto;
-  padding: 0 18px;
-  color: #4f2114;
-  text-indent: 0;
-  text-align: left;
-}
-
-.pagina-terfezias-desert h1 {
-  max-width: 860px;
-  margin: 28px auto 16px auto;
-  padding: 13px 18px;
-  border-top: 1px solid rgba(93, 23, 14, 0.22);
-  border-bottom: 1px solid rgba(93, 23, 14, 0.12);
-  color: #7b1f13;
-  font-size: 1.45em;
-  text-decoration: none;
-  text-align: left;
-}
-
-.pagina-terfezias-desert #central > h1:first-child {
-  margin-top: 0;
-  border-top: 0;
-  font-size: 1.8em;
-}
-
-.pagina-terfezias-desert h2,
-.pagina-terfezias-desert h3 {
-  color: #7b1f13;
-  text-decoration: none;
-}
-
-.pagina-terfezias-desert .Estilo1 {
-  color: #7b1f13;
-}
-
-.pagina-terfezias-desert a {
-  color: #7b1f13;
-}
-
-.pagina-terfezias-desert a:hover,
-.pagina-terfezias-desert a:focus {
-  color: #2f5c48;
-}
-
-.pagina-terfezias-desert #idiomas {
-  width: auto;
-  margin: 0 0 12px 0;
-  padding: 8px;
-  text-align: center;
+/* Tabla foto flotante derecha */
+.tabla-foto-derecha {
+  float: right;
+  width: min(360px, 44%);
+  margin: 4px 0 14px 22px;
   background: #f7ead5;
-  border: 1px solid rgba(93, 23, 14, 0.15);
+  border: 1px solid rgba(93, 23, 14, 0.18);
   border-radius: 8px;
 }
 
-.pagina-terfezias-desert #idiomas ul {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin: 0;
+.tabla-foto-derecha td {
+  padding: 10px;
+  color: #4f2114;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.35;
+  text-align: center;
 }
 
-.pagina-terfezias-desert #idiomas li {
-  float: none;
-  padding: 0;
-}
-
-.pagina-terfezias-desert #idiomas a {
+.tabla-foto-derecha img {
+  width: 100% !important;
+  height: auto !important;
   display: block;
-  padding: 4px;
-  border-radius: 5px;
+  margin: 0 auto 6px auto;
+  border-radius: 6px;
 }
 
-.pagina-terfezias-desert #idiomas a:hover,
-.pagina-terfezias-desert #idiomas a:focus {
-  background: #ffffff;
+@media screen and (max-width: 768px) {
+  .tabla-foto-derecha {
+    float: none;
+    width: 100%;
+    margin: 14px 0;
+  }
 }
 
-.pagina-terfezias-desert #menu {
+.pagina-terfezias #central div[style*="display:flex"] a,
+.pagina-terfezias #central div[style*="display:flex"] img {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Ajustes especificos para terfezias */
+.pagina-terfezias h3 {
+  color: #7b1f13;
+  text-decoration: none;
+}
+
+.pagina-terfezias a {
+  color: #7b1f13;
+}
+
+.pagina-terfezias a:hover,
+.pagina-terfezias a:focus {
+  color: #2f5c48;
+}
+
+.pagina-terfezias #central img {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.pagina-terfezias #central > a {
+  display: inline-block;
+  max-width: min(100%, 48%) !important;
+  margin: 8px 4px 12px 4px;
+  vertical-align: top;
+}
+
+.pagina-terfezias #menu {
   float: none;
   width: auto;
   margin: 0;
@@ -1326,247 +1536,108 @@ img {
   font-weight: normal;
 }
 
-.pagina-terfezias-desert #menu ul {
+.pagina-terfezias #menu ul {
   margin: 0;
 }
 
-.pagina-terfezias-desert #menu li {
+.pagina-terfezias #menu li {
   margin: 0;
   border-bottom: 1px solid rgba(93, 23, 14, 0.1);
 }
 
-.pagina-terfezias-desert #menu li:last-child {
+.pagina-terfezias #menu li:last-child {
   border-bottom: 0;
 }
 
-.pagina-terfezias-desert #menu a {
+.pagina-terfezias #menu a {
   padding: 7px 8px;
   border-radius: 5px;
   color: #4f2114;
   line-height: 1.25;
 }
 
-.pagina-terfezias-desert #menu a:hover,
-.pagina-terfezias-desert #menu a:focus {
+.pagina-terfezias #menu a:hover,
+.pagina-terfezias #menu a:focus {
   background: #5d170e;
   color: #ffffff;
   text-decoration: none;
 }
 
-.pagina-terfezias-desert #central img {
-  max-width: 100%;
-  border-radius: 6px;
+@media screen and (max-width: 768px) {
+  .pagina-terfezias #central img {
+    max-width: 100%;
+  }
 }
 
-.pagina-terfezias-desert #central > a {
-  display: inline-block;
-  margin: 8px 6px 12px 6px;
-  vertical-align: top;
-}
-
-.pagina-terfezias-desert table[align="right"] {
-  float: right;
-  width: min(360px, 44%);
-  margin: 4px 18px 14px 22px;
-  background: #f7ead5;
-  border: 1px solid rgba(93, 23, 14, 0.18);
-  border-radius: 8px;
-}
-
-.pagina-terfezias-desert table[align="right"] td {
-  padding: 10px;
-  color: #4f2114;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  font-size: 0.9em;
-  line-height: 1.35;
-}
-
-.pagina-terfezias-desert table[align="right"] img {
-  width: 100% !important;
-  height: auto !important;
-  margin: 0 auto 6px auto !important;
-}
-
-.pagina-terfezias-desert .tabla-composicion {
-  max-width: 720px;
-  margin: 0 auto;
+/* Mejoras tabla composicion nutricional */
+.tabla-composicion {
   border: 1px solid rgba(93, 23, 14, 0.22);
   border-top: 5px solid #2f5c48;
   border-radius: 8px;
   background: #f7ead5;
   box-shadow: 0 10px 22px rgba(93, 23, 14, 0.08);
-  box-sizing: border-box;
 }
 
-.pagina-terfezias-desert .tabla-composicion h2 {
-  padding: 0;
+.tabla-composicion h2 {
   color: #4f2114;
 }
 
-.pagina-terfezias-desert .tabla-composicion-datos {
-  display: table;
+.tabla-composicion-datos {
   color: #4f2114;
 }
 
-.pagina-terfezias-desert .tabla-composicion-datos th {
+.tabla-composicion-datos th {
   background: #5d170e;
   color: #ffffff;
 }
 
-.pagina-terfezias-desert .tabla-composicion-datos th,
-.pagina-terfezias-desert .tabla-composicion-datos td {
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  font-size: 0.98em;
-}
-
-.pagina-terfezias-desert .tabla-composicion-datos tr:nth-child(even) td {
+.tabla-composicion-datos tr:nth-child(even) td {
   background: rgba(47, 92, 72, 0.07);
 }
 
-.pagina-terfezias-desert #pie {
-  background: #5d170e;
-  padding: 10px 14px;
-  border-top: 4px solid #b88a3d;
+@media screen and (max-width: 600px) {
+  .tabla-composicion-datos th:first-child,
+  .tabla-composicion-datos td:first-child {
+    width: 66%;
+  }
+  .tabla-composicion-datos th:last-child,
+  .tabla-composicion-datos td:last-child {
+    width: 34%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .pagina-terfezias-desert #global {
-    box-shadow: none;
+  .pagina-divulgativa #central div[style*="display:flex"],
+  .pagina-terfezias #central div[style*="display:flex"] {
+    flex-direction: column;
+    gap: 8px;
   }
 
-  .pagina-terfezias-desert #contenido {
+  .pagina-divulgativa #central div[style*="display:flex"] > a,
+  .pagina-terfezias #central div[style*="display:flex"] > a {
     display: block;
-    padding: 12px;
-  }
-
-  .pagina-terfezias-desert #columnaI {
-    position: static;
-    width: 100%;
-  }
-
-  .pagina-terfezias-desert #central {
-    padding-top: 8px;
-    font-size: 1em;
-  }
-
-  .pagina-terfezias-desert #central p {
-    padding: 0 4px;
-    text-align: left;
-    text-indent: 0;
-  }
-
-  .pagina-terfezias-desert h1 {
-    margin: 24px 0 14px 0;
-    padding: 12px 4px 10px 4px;
-    font-size: 1.25em;
-  }
-
-  .pagina-terfezias-desert #central > h1:first-child {
-    font-size: 1.45em;
-  }
-
-  .pagina-terfezias-desert .menu-toggle-label {
-    margin: 8px 0;
-    padding: 11px 12px;
-    background: #5d170e;
-    border-radius: 8px;
-    font-size: 1em;
-  }
-
-  .pagina-terfezias-desert .menu-toggle:checked + .menu-toggle-label {
-    background: #2f5c48;
-  }
-
-  .pagina-terfezias-desert #menu {
-    padding: 8px;
-  }
-
-  .pagina-terfezias-desert #menu ul {
-    display: block;
-  }
-
-  .pagina-terfezias-desert #menu li {
-    width: 100%;
-    padding: 0;
-  }
-
-  .pagina-terfezias-desert #menu a {
-    padding: 9px 10px;
-  }
-
-  .pagina-terfezias-desert #central > a {
-    display: block;
-    margin: 10px auto 12px auto;
-    text-align: center;
-  }
-
-  .pagina-terfezias-desert table[align="right"] {
-    float: none;
-    display: table;
-    width: 100%;
-    margin: 14px 0;
-  }
-
-  .pagina-terfezias-desert .tabla-composicion {
-    width: 100% !important;
     max-width: 100% !important;
-    box-sizing: border-box;
-    overflow-x: visible !important;
+    width: 100%;
   }
 
-  .pagina-terfezias-desert .tabla-composicion-datos {
-    display: table !important;
-    width: 100% !important;
-    min-width: 0 !important;
+  .pagina-divulgativa #central div[style*="display:flex"] > a img,
+  .pagina-terfezias #central div[style*="display:flex"] > a img {
+    width: 100%;
     max-width: 100% !important;
-    margin: 0;
-    table-layout: fixed !important;
-    overflow-x: visible !important;
   }
 
-  .pagina-terfezias-desert .tabla-composicion-datos th:first-child,
-  .pagina-terfezias-desert .tabla-composicion-datos td:first-child {
-    width: 66%;
+  .pagina-divulgativa #central > a,
+  .pagina-terfezias #central > a {
+    display: block;
+    width: 100%;
+    max-width: 100% !important;
   }
 
-  .pagina-terfezias-desert .tabla-composicion-datos th:last-child,
-  .pagina-terfezias-desert .tabla-composicion-datos td:last-child {
-    width: 34%;
-  }
-
-  .pagina-terfezias-desert .tabla-composicion-datos th,
-  .pagina-terfezias-desert .tabla-composicion-datos td {
-    white-space: normal !important;
-    overflow-wrap: break-word;
-    word-break: normal;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .pagina-terfezias-desert #cabecera {
-    padding: 18px 58px 16px 12px;
-  }
-
-  .pagina-terfezias-desert #cabecera-titulo {
-    font-size: 1.45em;
-  }
-
-  .pagina-terfezias-desert #cabecera-subtitulo {
-    font-size: 0.62em;
-  }
-
-  .pagina-terfezias-desert #contenido {
-    padding: 10px;
-  }
-
-  .pagina-terfezias-desert #central {
-    line-height: 1.58;
-  }
-
-  .pagina-terfezias-desert .tabla-composicion-datos th,
-  .pagina-terfezias-desert .tabla-composicion-datos td {
-    padding: 7px 6px;
-    font-size: 0.88em;
+  .pagina-divulgativa #central > a img,
+  .pagina-terfezias #central > a img {
+    width: 100%;
+    height: auto !important;
+    max-width: 100% !important;
   }
 }
 
@@ -1973,7 +2044,7 @@ img {
   width: auto;
   max-width: none;
   margin: 0;
-  padding: 10px 0 34px 0;
+  padding: 10px 0 8px 0;
   color: #4f2114;
   font-size: 1.04em;
   line-height: 1.65;
@@ -2277,6 +2348,7 @@ img {
   .pagina-ficha-especie #central,
   .pagina-galeria-fotos #central {
     padding-top: 8px;
+    padding-bottom: 14px;
     font-size: 1em;
   }
 
@@ -2589,7 +2661,7 @@ img {
   width: auto;
   max-width: none;
   margin: 0;
-  padding: 10px 0 34px 0;
+  padding: 10px 0 8px 0;
   color: #4f2114;
 }
 
@@ -3044,15 +3116,33 @@ img {
   text-decoration: none;
 }
 
+.pagina-divulgativa #central div[style*="display:flex"],
+.pagina-terfezias #central div[style*="display:flex"] {
+  align-items: flex-start;
+}
+
+.pagina-divulgativa #central div[style*="display:flex"] > a {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: none !important;
+}
+
+.pagina-divulgativa #central div[style*="display:flex"] > a img {
+  width: 100%;
+  height: auto !important;
+  max-width: none !important;
+  display: block;
+}
+
 .pagina-divulgativa #central img {
-  max-width: min(100%, 360px);
+  max-width: min(100%, 480px);
   height: auto !important;
   border-radius: 6px;
 }
 
 .pagina-divulgativa #central > a {
   display: inline-block;
-  max-width: min(100%, 360px);
+  max-width: min(100%, 480px);
   margin: 8px 8px 14px 8px;
   text-align: center;
   vertical-align: top;
@@ -3064,6 +3154,14 @@ img {
   background: #f7ead5;
   border: 1px solid rgba(93, 23, 14, 0.16);
   border-radius: 8px;
+}
+
+.pagina-divulgativa #central table:not([class]) {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 auto;
 }
 
 .pagina-divulgativa #central td {
@@ -3085,7 +3183,7 @@ img {
 .pagina-divulgativa.pagina-inicio .inicio-divulgativo {
   max-width: 980px;
   margin: 0 auto;
-  padding: 8px 16px 28px 16px;
+  padding: 8px 16px 8px 16px;
 }
 
 .pagina-divulgativa.pagina-inicio .inicio-divulgativo h1 {
@@ -3186,7 +3284,7 @@ img {
   width: auto;
   max-width: 1020px;
   margin: 0 auto;
-  padding: 8px 18px 28px 18px;
+  padding: 8px 18px 8px 18px;
   box-sizing: border-box;
   color: #4f2114;
 }
@@ -3219,6 +3317,13 @@ img {
   background: #f7ead5;
   border: 1px solid rgba(93, 23, 14, 0.16);
   border-radius: 8px;
+}
+
+.pagina-divulgativa.pagina-bloque-entero #entero table.tabla-autor {
+  margin: 1em 0 0 0 !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
 }
 
 .pagina-divulgativa.pagina-bloque-entero #entero td {
@@ -3311,13 +3416,6 @@ img {
   vertical-align: top;
 }
 
-.pagina-divulgativa.pagina-inicio .tabla-autores {
-  max-width: 760px;
-  margin: 18px auto 0 auto;
-  background: #f7ead5;
-  border: 1px solid rgba(93, 23, 14, 0.16);
-  border-radius: 8px;
-}
 
 .pagina-divulgativa.pagina-falsas-trufas #entero {
   float: none;
@@ -3568,10 +3666,6 @@ img {
     overflow-x: auto;
   }
 
-  .pagina-divulgativa.pagina-inicio .tabla-autores {
-    width: 100%;
-    box-sizing: border-box;
-  }
 
   .pagina-divulgativa.pagina-falsas-trufas #entero {
     padding-top: 8px;
@@ -3713,7 +3807,6 @@ img {
 /* Idiomas discretos en cabecera movil para paginas modernizadas */
 @media screen and (max-width: 768px) {
   .pagina-divulgativa #columnaI,
-  .pagina-terfezias-desert #columnaI,
   .pagina-ficha-especie #columnaI,
   .pagina-galeria-fotos #columnaI,
   .pagina-indice-hipogeos #columnaI {
@@ -3721,7 +3814,6 @@ img {
   }
 
   .pagina-divulgativa #idiomas,
-  .pagina-terfezias-desert #idiomas,
   .pagina-ficha-especie #idiomas,
   .pagina-galeria-fotos #idiomas,
   .pagina-indice-hipogeos #idiomas,
@@ -3746,7 +3838,6 @@ img {
   }
 
   .pagina-divulgativa #idiomas ul,
-  .pagina-terfezias-desert #idiomas ul,
   .pagina-ficha-especie #idiomas ul,
   .pagina-galeria-fotos #idiomas ul,
   .pagina-indice-hipogeos #idiomas ul,
@@ -3759,7 +3850,6 @@ img {
   }
 
   .pagina-divulgativa #idiomas li,
-  .pagina-terfezias-desert #idiomas li,
   .pagina-ficha-especie #idiomas li,
   .pagina-galeria-fotos #idiomas li,
   .pagina-indice-hipogeos #idiomas li,
@@ -3771,7 +3861,6 @@ img {
   }
 
   .pagina-divulgativa #idiomas a,
-  .pagina-terfezias-desert #idiomas a,
   .pagina-ficha-especie #idiomas a,
   .pagina-galeria-fotos #idiomas a,
   .pagina-indice-hipogeos #idiomas a,
@@ -3782,7 +3871,6 @@ img {
   }
 
   .pagina-divulgativa #idiomas img,
-  .pagina-terfezias-desert #idiomas img,
   .pagina-ficha-especie #idiomas img,
   .pagina-galeria-fotos #idiomas img,
   .pagina-indice-hipogeos #idiomas img,
@@ -3798,4 +3886,262 @@ img {
 /* Linea superior en paginas de cuentos con columna lateral */
 .pagina-divulgativa.pagina-cuentos-trufas #central > h1:first-child {
   border-top: 1px solid rgba(93, 23, 14, 0.22);
+}
+/* Separador entre historias en p�ginas de relatos */
+.pagina-relatos #central hr {
+  height: 1px;
+  background-color: rgba(93, 23, 14, 0.4);
+  border: 0;
+  margin: 20px 0 0 0;
+}
+
+.pagina-relatos #central h1 {
+  border-top: 0;
+  margin-top: 0;
+}
+
+/* ================================================
+   CORRECCIONES FINALES PARA MÓVIL (Añadido al final para máxima prioridad)
+   ================================================ */
+
+@media screen and (max-width: 768px) {
+
+  /* 1. Evitar que las imágenes apiladas se recorten horizontalmente */
+  .pagina-divulgativa #central div[style*="display:flex"] > a img,
+  .pagina-terfezias #central div[style*="display:flex"] > a img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: unset !important;
+    max-width: 100% !important;
+  }
+/* Corrección específica tabla nutricional de terfezias */
+
+.tabla-composicion {
+  overflow: hidden;
+}
+
+.tabla-composicion-datos {
+  display: table !important;
+  width: 100% !important;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.tabla-composicion-datos tbody {
+  display: table-row-group;
+}
+
+.tabla-composicion-datos tr {
+  display: table-row;
+}
+
+.tabla-composicion-datos th,
+.tabla-composicion-datos td {
+  display: table-cell;
+  box-sizing: border-box;
+}
+
+.tabla-composicion-datos th:first-child {
+  border-top-left-radius: 7px;
+}
+
+.tabla-composicion-datos th:last-child {
+  border-top-right-radius: 7px;
+}
+
+.tabla-composicion-datos th:first-child,
+.tabla-composicion-datos td:first-child {
+  width: 62%;
+}
+
+.tabla-composicion-datos th:last-child,
+.tabla-composicion-datos td:last-child {
+  width: 38%;
+  text-align: right;
+  white-space: nowrap;
+}
+}
+
+/* Bloque de autor al final de las p�ginas */
+table.tabla-autor,
+#central table.tabla-autor {
+  display: table !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 1em 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  border-radius: 0 !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  outline: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+table.tabla-autor tbody,
+table.tabla-autor tr,
+table.tabla-autor td,
+#central table.tabla-autor tbody,
+#central table.tabla-autor tr,
+#central table.tabla-autor td {
+  border: none !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+table.tabla-autor td,
+#central table.tabla-autor td {
+  display: table-cell !important;
+  padding: 0 14px 12px 0 !important;
+  vertical-align: middle !important;
+  text-align: left !important;
+}
+
+table.tabla-autor .autor-foto,
+#central table.tabla-autor .autor-foto {
+  width: auto !important;
+  padding: 0 14px 12px 0 !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+}
+
+table.tabla-autor .autor-datos,
+table.tabla-autor .autor-datos-amplio,
+#central table.tabla-autor .autor-datos,
+#central table.tabla-autor .autor-datos-amplio {
+  padding: 0 0 12px 0 !important;
+  color: #660000;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  font-size: 0.95em;
+  line-height: 1.45;
+  text-align: left !important;
+}
+
+table.tabla-autor img,
+#central table.tabla-autor img {
+  display: block !important;
+  width: auto !important;
+  max-width: none !important;
+  height: auto !important;
+  margin: 0 !important;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+table.tabla-autor-doble,
+#central table.tabla-autor-doble {
+  display: table !important;
+  border: none !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+table.tabla-autor-doble tr,
+table.tabla-autor-doble td,
+#central table.tabla-autor-doble tr,
+#central table.tabla-autor-doble td {
+  border: none !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-color: transparent !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+table.tabla-autor-doble .autor-datos,
+#central table.tabla-autor-doble .autor-datos {
+  padding-right: 28px !important;
+}
+
+@media screen and (max-width: 600px) {
+  table.tabla-autor-doble,
+  #central table.tabla-autor-doble {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  table.tabla-autor-doble tbody,
+  #central table.tabla-autor-doble tbody {
+    display: block !important;
+  }
+
+  /* El único tr se convierte en grid 2x2: foto|datos / foto|datos */
+  table.tabla-autor-doble tr,
+  #central table.tabla-autor-doble tr {
+    display: grid !important;
+    grid-template-columns: auto 1fr !important;
+    grid-template-rows: auto auto !important;
+    gap: 6px 10px !important;
+    width: 100% !important;
+  }
+
+  /* Foto Encarna: celda (1,1) */
+  table.tabla-autor-doble td.autor-foto:nth-child(1),
+  #central table.tabla-autor-doble td.autor-foto:nth-child(1) {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    padding: 0 !important;
+  }
+
+  /* Datos Encarna: celda (1,2) */
+  table.tabla-autor-doble td.autor-datos:nth-child(2),
+  #central table.tabla-autor-doble td.autor-datos:nth-child(2) {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    padding: 0 !important;
+    align-self: center !important;
+  }
+
+  /* Foto Antonio: celda (2,1) */
+  table.tabla-autor-doble td.autor-foto:nth-child(3),
+  #central table.tabla-autor-doble td.autor-foto:nth-child(3) {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+    padding: 0 !important;
+  }
+
+  /* Datos Antonio: celda (2,2) */
+  table.tabla-autor-doble td.autor-datos:nth-child(4),
+  #central table.tabla-autor-doble td.autor-datos:nth-child(4) {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+    padding: 0 !important;
+    align-self: center !important;
+  }
+
+  table.tabla-autor-doble .autor-foto img,
+  #central table.tabla-autor-doble .autor-foto img {
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: cover !important;
+    border-radius: 4px !important;
+    display: block !important;
+  }
 }
