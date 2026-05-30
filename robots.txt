@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /Trufamania/
 Disallow: /melanosporum/
-Disallow: /pruebas-trufamania/
 Sitemap: https://trufamania.com/sitemap.xml
