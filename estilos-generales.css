@@ -4147,3 +4147,9 @@ table.tabla-autor-doble .autor-datos,
     display: block !important;
   }
 }
+
+/* Anular margin de móvil en imágenes dentro de pares flex */
+.pagina-divulgativa #central div[style*="display:flex"] img,
+.pagina-terfezias #central div[style*="display:flex"] img {
+  margin: 0 !important;
+}
