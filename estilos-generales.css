@@ -3082,6 +3082,7 @@ img {
   background: #f7ead5;
   border: 1px solid rgba(93, 23, 14, 0.22);
   border-radius: 8px;
+  font-size: 0.92em;
 }
 
 .pagina-divulgativa #menu ul {
@@ -3107,6 +3108,7 @@ img {
   border-radius: 5px;
   color: #4f2114;
   line-height: 1.25;
+  font-weight: normal;
 }
 
 .pagina-divulgativa #menu a:hover,
