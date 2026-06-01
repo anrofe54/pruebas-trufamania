@@ -1,0 +1,23 @@
+# Lista maestra del menú lateral de Tuber
+# Formato: texto visible|archivo español|archivo inglés
+# Edita aquí cuando añadas, quites o reordenes especies.
+# Exclusiones deliberadas documentadas en: fragmentos/exclusiones-menu-especies.txt
+
+aestivum|Tuber aestivum.htm|Tuber aestivum English.htm
+borchii|Tuber borchii.htm|Tuber borchii English.htm
+brumale|Tuber brumale.htm|Tuber brumale English.htm
+excavatum|Tuber excavatum.htm|Tuber excavatum English.htm
+gennadii|Tuber gennadii.htm|Tuber gennadii English.htm
+indicum|Tuber indicum.htm|Tuber indicum English.htm
+macrosporum|Tuber macrosporum.htm|Tuber macrosporum English.htm
+magnatum|Tuber magnatum.htm|Tuber magnatum English.htm
+malenconii|Tuber malenconii.htm|Tuber malenconii English.htm
+melanosporum|Tuber melanosporum.htm|Tuber melanosporum English.htm
+melosporum|Tuber melosporum.htm|Tuber melosporum English.htm
+mesentericum|Tuber mesentericum.htm|Tuber mesentericum English.htm
+nitidum|Tuber nitidum.htm|Tuber nitidum English.htm
+oligospermum|Tuber oligospermum.htm|Tuber oligospermum English.htm
+panniferum|Tuber panniferum.htm|Tuber panniferum English.htm
+puberulum|Tuber puberulum.htm|Tuber puberulum English.htm
+rufum|Tuber rufum.htm|Tuber rufum English.htm
+uncinatum|Tuber uncinatum.htm|Tuber uncinatum English.htm

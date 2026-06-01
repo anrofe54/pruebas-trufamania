@@ -1,0 +1,18 @@
+# Lista maestra del menú lateral de Terfezia
+# Formato: texto visible|archivo español|archivo inglés
+# Edita aquí cuando añadas, quites o reordenes especies.
+# Exclusiones deliberadas documentadas en: fragmentos/exclusiones-menu-especies.txt
+
+albida|Terfezia albida.htm|Terfezia albida English.htm
+alsheikhii|Terfezia alsheikhii.htm|Terfezia alsheikhii English.htm
+arenaria|Terfezia arenaria.htm|Terfezia arenaria English.htm
+boudieri|Terfezia boudieri.htm|Terfezia boudieri English.htm
+canariensis|Terfezia canariensis.htm|Terfezia canariensis English.htm
+cistophila|Terfezia cistophila.htm|Terfezia cistophila English.htm
+claveryi|Terfezia claveryi.htm|Terfezia claveryi English.htm
+eliocrocae|Terfezia eliocrocae.htm|Terfezia eliocrocae English.htm
+extremadurensis|Terfezia extremadurensis.htm|Terfezia extremadurensis English.htm
+fanfani|Terfezia fanfani.htm|Terfezia fanfani English.htm
+grisea|Terfezia grisea.htm|Terfezia grisea English.htm
+pini|Terfezia pini.htm|Terfezia pini English.htm
+pseudoleptoderma|Terfezia pseudoleptoderma.htm|Terfezia pseudoleptoderma English.htm

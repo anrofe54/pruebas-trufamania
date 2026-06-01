@@ -1,0 +1,16 @@
+# Especies con ficha existente que NO deben incorporarse de momento
+# al menú lateral maestro de fichas Tuber/Terfezia.
+#
+# Razones:
+# - algunas no están indexadas;
+# - otras pertenecen a otro menú;
+# - no deben aparecer ahora en el menú lateral común.
+
+[Tuber]
+Tuber alcaracense
+Tuber buendiae
+Tuber davidlopezii
+Tuber rufum var nigrum
+
+[Terfezia]
+Terfezia morenoi

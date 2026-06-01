@@ -1,0 +1,69 @@
+INFORME DE LISTAS MAESTRAS PARA MENÚS LATERALES
+Generado: 2026-06-01T14:44:10
+
+Alcance:
+- Solo menús laterales compactos de fichas individuales Tuber y Terfezia.
+- No se han modificado fichas HTML existentes.
+- No se han tocado páginas índice ni bloques descriptivos.
+
+========================================================================
+Tuber
+========================================================================
+Bloques compactos detectados: 40
+Longitudes detectadas: 18 enlaces: 40 bloques
+Bloque usado como base: Tuber uncinatum.htm, líneas 50-67
+Enlaces en la lista maestra creada: 18
+Veces que aparece la misma secuencia: 20
+
+Lista creada:
+  - aestivum
+  - borchii
+  - brumale
+  - excavatum
+  - gennadii
+  - indicum
+  - macrosporum
+  - magnatum
+  - malenconii
+  - melanosporum
+  - melosporum
+  - mesentericum
+  - nitidum
+  - oligospermum
+  - panniferum
+  - puberulum
+  - rufum
+  - uncinatum
+
+ATENCIÓN: fichas existentes que NO están en el menú maestro actual:
+  - Tuber alcaracense (EN,ES)
+  - Tuber buendiae (EN,ES)
+  - Tuber davidlopezii (EN,ES)
+  - Tuber rufum var nigrum (EN,ES)
+
+========================================================================
+Terfezia
+========================================================================
+Bloques compactos detectados: 28
+Longitudes detectadas: 13 enlaces: 28 bloques
+Bloque usado como base: Terfezia pseudoleptoderma.htm, líneas 46-58
+Enlaces en la lista maestra creada: 13
+Veces que aparece la misma secuencia: 14
+
+Lista creada:
+  - albida
+  - alsheikhii
+  - arenaria
+  - boudieri
+  - canariensis
+  - cistophila
+  - claveryi
+  - eliocrocae
+  - extremadurensis
+  - fanfani
+  - grisea
+  - pini
+  - pseudoleptoderma
+
+ATENCIÓN: fichas existentes que NO están en el menú maestro actual:
+  - Terfezia morenoi (EN,ES)
