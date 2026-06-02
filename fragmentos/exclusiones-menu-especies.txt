@@ -8,7 +8,6 @@
 
 [Tuber]
 Tuber alcaracense
-Tuber buendiae
 Tuber davidlopezii
 Tuber rufum var nigrum
 
