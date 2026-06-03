@@ -4153,3 +4153,36 @@ table.tabla-autor-doble .autor-datos,
 .pagina-terfezias #central div[style*="display:flex"] img {
   margin: 0 !important;
 }
+/* Espaciado regular en gastronomia-trufas */
+.pagina-gastronomia #central p {
+  margin-top: 0;
+  margin-bottom: 0.9em;
+}
+
+.pagina-gastronomia #central h2 {
+  margin-top: 1.9em;
+  margin-bottom: 0.9em;
+}
+
+.pagina-gastronomia #central h4 {
+  margin-top: 1.35em;
+  margin-bottom: 0.55em;
+}
+
+.pagina-gastronomia #central > a {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  margin: 1.25em auto;
+  text-align: center;
+}
+
+.pagina-gastronomia #central > a img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.pagina-gastronomia #central > div[style*="display:flex"] {
+  margin: 1.25em 0 !important;
+}
