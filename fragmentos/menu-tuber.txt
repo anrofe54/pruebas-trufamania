@@ -4,6 +4,7 @@
 # Exclusiones deliberadas documentadas en: fragmentos/exclusiones-menu-especies.txt
 
 aestivum|Tuber aestivum.htm|Tuber aestivum English.htm
+alcaracense|Tuber alcaracense.htm|Tuber alcaracense English.htm
 borchii|Tuber borchii.htm|Tuber borchii English.htm
 brumale|Tuber brumale.htm|Tuber brumale English.htm
 buendiae|Tuber buendiae.htm|Tuber buendiae English.htm
