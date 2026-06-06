@@ -8,6 +8,7 @@ alcaracense|Tuber alcaracense.htm|Tuber alcaracense English.htm
 borchii|Tuber borchii.htm|Tuber borchii English.htm
 brumale|Tuber brumale.htm|Tuber brumale English.htm
 buendiae|Tuber buendiae.htm|Tuber buendiae English.htm
+davidlopezii|Tuber davidlopezii.htm|Tuber davidlopezii English.htm
 excavatum|Tuber excavatum.htm|Tuber excavatum English.htm
 gennadii|Tuber gennadii.htm|Tuber gennadii English.htm
 indicum|Tuber indicum.htm|Tuber indicum English.htm

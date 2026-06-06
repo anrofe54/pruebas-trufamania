@@ -7,7 +7,6 @@
 # - no deben aparecer ahora en el menú lateral común.
 
 [Tuber]
-Tuber davidlopezii
 Tuber rufum var nigrum
 
 [Terfezia]
