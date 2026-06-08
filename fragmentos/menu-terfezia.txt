@@ -14,5 +14,6 @@ eliocrocae|Terfezia eliocrocae.htm|Terfezia eliocrocae English.htm
 extremadurensis|Terfezia extremadurensis.htm|Terfezia extremadurensis English.htm
 fanfani|Terfezia fanfani.htm|Terfezia fanfani English.htm
 grisea|Terfezia grisea.htm|Terfezia grisea English.htm
+morenoi|Terfezia morenoi.htm|Terfezia morenoi English.htm
 pini|Terfezia pini.htm|Terfezia pini English.htm
 pseudoleptoderma|Terfezia pseudoleptoderma.htm|Terfezia pseudoleptoderma English.htm
