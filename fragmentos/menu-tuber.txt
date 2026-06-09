@@ -24,3 +24,4 @@ panniferum|Tuber panniferum.htm|Tuber panniferum English.htm
 puberulum|Tuber puberulum.htm|Tuber puberulum English.htm
 rufum|Tuber rufum.htm|Tuber rufum English.htm
 uncinatum|Tuber uncinatum.htm|Tuber uncinatum English.htm
+zambonelliae|Tuber zambonelliae.htm|Tuber zambonelliae English.htm
