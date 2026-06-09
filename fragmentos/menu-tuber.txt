@@ -12,6 +12,7 @@ davidlopezii|Tuber davidlopezii.htm|Tuber davidlopezii English.htm
 excavatum|Tuber excavatum.htm|Tuber excavatum English.htm
 gennadii|Tuber gennadii.htm|Tuber gennadii English.htm
 indicum|Tuber indicum.htm|Tuber indicum English.htm
+lusitanicum|Tuber lusitanicum.htm|Tuber lusitanicum English.htm
 macrosporum|Tuber macrosporum.htm|Tuber macrosporum English.htm
 magnatum|Tuber magnatum.htm|Tuber magnatum English.htm
 malenconii|Tuber malenconii.htm|Tuber malenconii English.htm
