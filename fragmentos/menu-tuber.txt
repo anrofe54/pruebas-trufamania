@@ -19,6 +19,7 @@ malenconii|Tuber malenconii.htm|Tuber malenconii English.htm
 melanosporum|Tuber melanosporum.htm|Tuber melanosporum English.htm
 melosporum|Tuber melosporum.htm|Tuber melosporum English.htm
 mesentericum|Tuber mesentericum.htm|Tuber mesentericum English.htm
+mohedanoi|Tuber mohedanoi.htm|Tuber mohedanoi English.htm
 nitidum|Tuber nitidum.htm|Tuber nitidum English.htm
 oligospermum|Tuber oligospermum.htm|Tuber oligospermum English.htm
 panniferum|Tuber panniferum.htm|Tuber panniferum English.htm
