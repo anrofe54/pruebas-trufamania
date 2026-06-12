@@ -10,6 +10,7 @@ boudieri|Terfezia boudieri.htm|Terfezia boudieri English.htm
 canariensis|Terfezia canariensis.htm|Terfezia canariensis English.htm
 cistophila|Terfezia cistophila.htm|Terfezia cistophila English.htm
 claveryi|Terfezia claveryi.htm|Terfezia claveryi English.htm
+dunensis|Terfezia dunensis.htm|Terfezia dunensis English.htm
 eliocrocae|Terfezia eliocrocae.htm|Terfezia eliocrocae English.htm
 extremadurensis|Terfezia extremadurensis.htm|Terfezia extremadurensis English.htm
 fanfani|Terfezia fanfani.htm|Terfezia fanfani English.htm
