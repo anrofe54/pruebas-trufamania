@@ -23,6 +23,18 @@ Shadowbox.init({language: "en" });
 <div id="cabecera">
     <div id="cabecera-titulo">TRUFAMANIA</div>
     <div id="cabecera-subtitulo">Pasion por la trufa</div>
+<div class="busqueda-desplegable">
+  <input type="checkbox" id="search-toggle" class="search-toggle">
+  <label for="search-toggle" class="search-toggle-label" title="Search">
+    <span class="icono-lupa"></span>
+  </label>
+  <form class="buscador-web" action="https://www.google.com/search" method="get">
+    <label for="search-toggle" class="search-close" title="Close">&#8592;</label>
+    <input type="hidden" name="sitesearch" value="trufamania.com">
+    <input type="text" name="q" value="" placeholder="Search this site" title="Search in Trufamania">
+    <input type="submit" value="Search" title="Search">
+  </form>
+</div>
 <label for="nav-toggle" class="nav-toggle-label"><span></span><span></span><span></span></label>
 </div>
 		 <div id="navegacion">
