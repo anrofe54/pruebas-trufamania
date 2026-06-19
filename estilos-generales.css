@@ -3243,7 +3243,7 @@ img {
 
 .pagina-divulgativa.pagina-inicio .aviso-inicio,
 .pagina-divulgativa.pagina-inicio .cierre-inicio {
-  max-width: 900px;
+  max-width: 940px;
   background: #f7ead5;
   border: 1px solid rgba(93, 23, 14, 0.18);
   border-left: 4px solid #b88a3d;
@@ -4390,3 +4390,51 @@ table.tabla-autor-doble .autor-datos,
   }
 }
 
+
+/* Pagina nuevas especies */
+@media screen and (min-width: 769px) {
+  .pagina-divulgativa.pagina-nuevas-especies #columnaI,
+  .pagina-divulgativa.pagina-new-species #columnaI {
+    flex: 0 0 120px;
+    width: 120px;
+  }
+}
+
+.pagina-divulgativa.pagina-nuevas-especies .entradilla-inicio,
+.pagina-divulgativa.pagina-new-species .entradilla-inicio {
+  max-width: 920px;
+  color: #4f2114;
+  line-height: 1.65;
+  padding: 0 18px 16px 18px !important;
+  text-align: left;
+}
+
+.pagina-divulgativa.pagina-nuevas-especies .aviso-inicio,
+.pagina-divulgativa.pagina-nuevas-especies .cierre-inicio,
+.pagina-divulgativa.pagina-new-species .aviso-inicio,
+.pagina-divulgativa.pagina-new-species .cierre-inicio {
+  max-width: 940px;
+  background: #f7ead5;
+  border: 1px solid rgba(93, 23, 14, 0.18);
+  border-left: 4px solid #b88a3d;
+  border-radius: 8px;
+  color: #4f2114;
+}
+
+.pagina-divulgativa.pagina-nuevas-especies .lista-citas,
+.pagina-divulgativa.pagina-new-species .lista-citas {
+  max-width: 940px;
+  color: #4f2114;
+}
+
+/* Evitar particiones de palabras en paginas de nuevas especies */
+.pagina-divulgativa.pagina-nuevas-especies .entradilla-inicio,
+.pagina-divulgativa.pagina-nuevas-especies .aviso-inicio p,
+.pagina-divulgativa.pagina-nuevas-especies .cierre-inicio p,
+.pagina-divulgativa.pagina-nuevas-especies .lista-citas,
+.pagina-divulgativa.pagina-new-species .entradilla-inicio,
+.pagina-divulgativa.pagina-new-species .aviso-inicio p,
+.pagina-divulgativa.pagina-new-species .cierre-inicio p,
+.pagina-divulgativa.pagina-new-species .lista-citas {
+  hyphens: none;
+}
