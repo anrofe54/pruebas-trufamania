@@ -1073,6 +1073,47 @@ img {
   color: red;
 }
 
+.bloque-inicio.bloque-destacado {
+  grid-column: 1 / -1;
+  background-color: #fff0d6;
+  border: 2px solid #660000;
+  box-shadow: 0 0 0 1px #ffcc66 inset;
+}
+
+.bloque-inicio.bloque-destacado h2::before {
+  content: "\2605  ";
+  color: #660000;
+}
+
+.lista-citas {
+  max-width: 790px;
+  margin: 0 auto 20px auto;
+  padding: 0 30px 0 50px;
+  text-align: left;
+  color: #660000;
+  line-height: 1.5;
+}
+
+.lista-citas li {
+  margin-bottom: 10px;
+  padding-left: 6px;
+}
+
+.lista-citas a {
+  color: #660000;
+  font-weight: bold;
+}
+
+.lista-citas a:hover {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .lista-citas {
+    padding: 0 16px 0 34px;
+  }
+}
+
 .cierre-inicio {
   max-width: 790px;
   margin: 20px auto 24px auto;
