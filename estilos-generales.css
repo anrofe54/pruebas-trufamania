@@ -140,7 +140,7 @@ td {
 }
 
 /* ================================================
-   NAVEGACIÓN SUPERIOR
+   NAVEGACIÃN SUPERIOR
    ================================================ */
 
 #navegacion {
@@ -636,7 +636,7 @@ div.sb-message a:visited {
 }
 
 /* ================================================
-   MENÚ LATERAL
+   MENÃ LATERAL
    ================================================ */
 
 #menu {
@@ -696,20 +696,20 @@ div.sb-message a:visited {
 }
 
 /* ================================================
-   IMÁGENES
+   IMÃGENES
    ================================================ */
 
 /*
-   En escritorio respetamos los tamaños puestos en el HTML,
+   En escritorio respetamos los tamaÃ±os puestos en el HTML,
    por ejemplo height="300".
-   Por eso aquí NO ponemos height: auto.
+   Por eso aquÃ­ NO ponemos height: auto.
 */
 
 img {
   max-width: 100%;
 }
 
-/* Banderas, iconos y elementos pequeños: mantener tamaño natural */
+/* Banderas, iconos y elementos pequeÃ±os: mantener tamaÃ±o natural */
 
 #idiomas img,
 #menu img,
@@ -720,7 +720,7 @@ img {
 }
 
 /* ================================================
-   RESPONSIVE PARA MÓVIL Y TABLET PEQUEÑA
+   RESPONSIVE PARA MÃVIL Y TABLET PEQUEÃA
    ================================================ */
 
 @media (max-width: 768px) {
@@ -868,8 +868,8 @@ img {
   }
 
   /*
-     En móvil sí anulamos los height="300" del HTML
-     para que las imágenes no se salgan de la pantalla.
+     En mÃ³vil sÃ­ anulamos los height="300" del HTML
+     para que las imÃ¡genes no se salgan de la pantalla.
   */
 
   img {
@@ -926,7 +926,7 @@ img {
 }
 
 /* ================================================
-   MÓVILES MUY ESTRECHOS
+   MÃVILES MUY ESTRECHOS
    ================================================ */
 
 @media (max-width: 480px) {
@@ -1145,7 +1145,7 @@ img {
   font-style: italic;
 }
 
-/* Inicio divulgativo en móvil */
+/* Inicio divulgativo en mÃ³vil */
 
 @media (max-width: 768px) {
 
@@ -3762,7 +3762,7 @@ img {
   }
 }
 
-/* Evitar partición de palabras en textos de contenido en móvil */
+/* Evitar particiÃ³n de palabras en textos de contenido en mÃ³vil */
 @media screen and (max-width: 768px) {
   #central p,
   #central li,
@@ -3795,7 +3795,7 @@ img {
     overflow-wrap: normal !important;
   }
 }
-/* Evitar partición de palabras en la portada móvil */
+/* Evitar particiÃ³n de palabras en la portada mÃ³vil */
 @media screen and (max-width: 768px) {
   .pagina-portada .contenido-portada,
   .pagina-portada .contenido-portada p,
@@ -3930,7 +3930,7 @@ img {
 .pagina-divulgativa.pagina-cuentos-trufas #central > h1:first-child {
   border-top: 1px solid rgba(93, 23, 14, 0.22);
 }
-/* Separador entre historias en p�ginas de relatos */
+/* Separador entre historias en páginas de relatos */
 .pagina-relatos #central hr {
   height: 1px;
   background-color: rgba(93, 23, 14, 0.4);
@@ -3944,12 +3944,12 @@ img {
 }
 
 /* ================================================
-   CORRECCIONES FINALES PARA MÓVIL (Añadido al final para máxima prioridad)
+   CORRECCIONES FINALES PARA MÃVIL (AÃ±adido al final para mÃ¡xima prioridad)
    ================================================ */
 
 @media screen and (max-width: 768px) {
 
-  /* 1. Evitar que las imágenes apiladas se recorten horizontalmente */
+  /* 1. Evitar que las imÃ¡genes apiladas se recorten horizontalmente */
   .pagina-divulgativa #central div[style*="display:flex"] > a img,
   .pagina-terfezias #central div[style*="display:flex"] > a img {
     width: 100% !important;
@@ -3957,7 +3957,7 @@ img {
     object-fit: unset !important;
     max-width: 100% !important;
   }
-/* Corrección específica tabla nutricional de terfezias */
+/* CorrecciÃ³n especÃ­fica tabla nutricional de terfezias */
 
 .tabla-composicion {
   overflow: hidden;
@@ -4009,7 +4009,7 @@ img {
 }
 }
 
-/* Bloque de autor al final de las p�ginas */
+/* Bloque de autor al final de las páginas */
 table.tabla-autor,
 #central table.tabla-autor {
   display: table !important;
@@ -4135,7 +4135,7 @@ table.tabla-autor-doble .autor-datos,
     display: block !important;
   }
 
-  /* El único tr se convierte en grid 2x2: foto|datos / foto|datos */
+  /* El Ãºnico tr se convierte en grid 2x2: foto|datos / foto|datos */
   table.tabla-autor-doble tr,
   #central table.tabla-autor-doble tr {
     display: grid !important;
@@ -4189,7 +4189,7 @@ table.tabla-autor-doble .autor-datos,
   }
 }
 
-/* Anular margin de m�vil en im�genes dentro de pares flex */
+/* Anular margin de móvil en imágenes dentro de pares flex */
 .pagina-divulgativa #central div[style*="display:flex"] img,
 .pagina-terfezias #central div[style*="display:flex"] img {
   margin: 0 !important;
